@@ -1,0 +1,1 @@
+/*Código para mostrar em dois displays de 7 segmentos o produto das entradas fornecidas pelo usuário.Conforme o número de vezes que o usuário aperta o botão, a entrada será um número de 0 a 9.Por exemplo, um clique corresponde ao número zero, dez cliques correspondem ao número nove.*/void setup() {    }void loop() {    }
