@@ -28,27 +28,29 @@ Upload the code contained in this sketch on to your board
 === Folder structure
 
 ....
- sketch123                => Arduino sketch folder
-  ├── sketch123.ino       => main Arduino file
-  ├── schematics.png      => (optional) an image of the required schematics
-  ├── layout.png          => (optional) an image of the layout
-  └── ReadMe.adoc         => this file
+ Inputs-product                => Arduino sketch folder
+  ├── Produto das entradas.ino                     => main Arduino file
+  ├── Circuito base.png                            => an image of the circuit which is very similar to the one required
+  ├── Circuito display sete segmentos.png          => an image focused on the Seven Seg Display connections
+  └── ReadMe.adoc                                  => this file
 ....
 
 === License
-This project is released under a {License} License.
+This project is released under a License.
 
 === Contributing
-To contribute to this project please contact me https://id.arduino.cc/me
+To contribute to this project please contact me.
 
 === BOM
 Add the bill of the materials you need for this project.
 
 |===
-| ID | Part name      | Part number | Quantity
-| R1 | 10k Resistor   | 1234-abcd   | 10
-| L1 | Red LED        | 2345-asdf   | 5
-| A1 | Arduino Zero   | ABX00066    | 1
+| ID | Part name                             | Part number | Quantity
+| R1 | 1k Resistor                           | 1234-abcd   | 4
+| L1 | 7 Segment Displays (Common Cathode)   | 2345-asdf   | 2
+| A1 | Arduino Uno                           | ABX00066    | 1
+| C1 | CD 4511 - BCD to 7 Display Decoder    | XXXXXXXX    | 2
+| C1 | Push buttons                          | XXXXXXXX    | 2
 |===
 
 
